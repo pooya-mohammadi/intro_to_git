@@ -24,8 +24,16 @@ Git is mainly used because of following reasons
 * several other features which we'll review in the next chapters.
 
 ## How to create a project and control its versions using git
-To start a Git based project. First, Download git from the following link and install it.</br>
+To start a Git based project. First, we need to install it:</br>
+### Installation
+linux users:
+```commandline
+sudo apt-get install git
+```
+Windows users:</br>
+Download git from the following link and install it.</br>
 [git download link](https://git-scm.com/downloads)
+
 Then, open a terminal/cmd and run the following command to start a project:
 
 ```commandline
