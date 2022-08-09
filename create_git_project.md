@@ -33,6 +33,7 @@ sudo apt-get install git
 Windows users:</br>
 Download git from the following link and install it.</br>
 [git download link](https://git-scm.com/downloads)
+</br>Use the default Option and install it.
 
 Then, open a terminal/cmd and run the following command to start a project:
 
@@ -217,7 +218,7 @@ You will get a message as below:</br>
 1. As it is clear in the image, the server blocks the request because we have not set the publickey.
 2. You can consider than the correct credentials are not set, so the remote server does not authenticate our push request and does not consider it valid.
 
-### Let's fix public key
+### Let's assign public key to Github
 linux users:
 ```commandline
 sudo apt-get install openssh-server # install
@@ -226,6 +227,15 @@ sudo systemctl start ssh # start
 
 ssh-keygen # generates a public key. You can specify a name or simply follow the defaults using enter key.
 cat ~/.ssh/id_rsa.pub 
+```
+Windows users:</br>
+Open Powershell and enter the following command:
+</br>[how to install ssh on Windows reference](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=powershell)
+```commandline
+(New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
+Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
+ssh-keygen.exe # generates a public key. You can specify a name or simply follow the defaults using enter key.
+cat ~\.ssh\id_rsa.pub
 ```
 The last line prints out the public key. Copy the key.
 ![img.png](images/create_git_project/img_github_ssh.png)
