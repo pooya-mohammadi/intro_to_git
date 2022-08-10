@@ -168,7 +168,7 @@ git checkout main # your branch name(yours might be `master`)
 Everything is back to the way we left. It's amazing!
 
 ## How to add our project to a remote server[GitHub]
-First, create account in GitHub. Then Log in to your page.</br>  
+First, create an account on GitHub. Then Log in to your page.</br>  
 ![img.png](images/create_git_project/github_new.png)
 Click on the new button to create a new project.</br> 
 ![img.png](images/create_git_project/img_create_project_github.png)
