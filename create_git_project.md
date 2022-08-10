@@ -113,6 +113,7 @@ git status # an inseparable part of our commands :)
 ```
 
 ![img.png](images/create_git_project/img_modify_readme.png)
+
 **Image Notes:**
 1. I used nano to modify Readme.md(a linux app for editing text files)
 2. [main 22b2390] Add header Readme.md: [branch-name commit-hash] commit message
