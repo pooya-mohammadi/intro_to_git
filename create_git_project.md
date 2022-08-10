@@ -80,6 +80,7 @@ git status # Use this each time you make a change. It's a lifesaver.
    2. Commit: Committing a staged file means that you are creating version of it and adding it to the git's database at the same time.
    3. After committing a file, you can access that version anytime you desire(we'll see how to access different versions)
 2. How to remove a file from staging area: `git rm --cached <file-name-0> <file-name-1>...`
+   1. Note:**By using this command the file will be removed from future versions. It's as if it was not existed ever!**
 
 ### Let's create our first commit:
 Commit structure is as follows:
@@ -101,12 +102,32 @@ The output should be like below if you had only `Readme.md` in your project's di
 
 
 That's it. We have now the first version of our file. 
+
+Note: 
+</br>Before your first commit, you will be asked to enter your a commit email.</br>
+Enter the email that you are going to create a GitHub account and the username that you want to use for your GitHub.
+
+![img_1.png](images/create_git_project/img_commit_email.png)
+
+You can change them at any time...
+
 ### Let's make a change and commit it as well as the previous one.
 
 ```commandline
 # open Readme.md using a text editor and add the following line
 # # Introduction to Git
 # an empty line
+git status
+```
+![img.png](images/create_git_project/img_change_commit.png)
+
+**Image Notes:**
+1. I used nano to modify Readme.md(a linux app for editing text files)
+2. Changes to be committed: It means that you have added some files to staging area, and it's ready to be committed.
+3. If you don't want to include the newly applied changes to your file, you can simply restore it using `git restore --staged <file-name-01> <file-name-02> ...`
+   1. This command removes the changed file from the staging area. **It does not remove the whole file from git cache or future commits as in the previous command** 
+
+```commandline
 git add Readme.md # Before commiting a file, you should add it to stating area.
 git commit -m "Add header Readme.md" # try to add an informative commit message(we'll talk about it in the next notes)
 git status # an inseparable part of our commands :)
@@ -219,7 +240,9 @@ You will get a message as below:</br>
 1. As it is clear in the image, the server blocks the request because we have not set the publickey.
 2. You can consider than the correct credentials are not set, so the remote server does not authenticate our push request and does not consider it valid.
 
-### Let's assign public key to Github
+**Note:**
+
+### Let's assign public key to GitHub
 linux users:
 ```commandline
 sudo apt-get install openssh-server # install
