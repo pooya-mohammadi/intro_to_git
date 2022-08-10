@@ -33,7 +33,7 @@ sudo apt-get install git
 Windows users:</br>
 Download git from the following link and install it.</br>
 [git download link](https://git-scm.com/downloads)
-</br>Use the default Option and install it.
+</br>Use the default options and install it.
 
 Then, open a terminal/cmd and run the following command to start a project:
 
