@@ -5,6 +5,7 @@ It's aimed at making it easy to work with Git and GitHub practically and avoidin
 I'm releasing a series of YouTube videos based on the content of this repo. You can find the videos in the following link:</br>
 [intro_to_git youtube series](https://youtube.com/playlist?list=PL2g_5adpoaeLfkAnqPH3sYQDYLeFYgr0b)
 
+<div  id="top"></div>
 # Table of Contents
 1. [Create a Git project](https://github.com/pooya-mohammadi/intro_to_git/blob/main/create_git_project.md)
 
@@ -23,6 +24,5 @@ Thanks so much for your interest in growing the reach of the repo!
 ## ⚠️ License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-The LICENSE of each model is located inside its corresponding directory.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
