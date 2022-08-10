@@ -119,7 +119,7 @@ You can change them at any time...
 # an empty line
 git status
 ```
-
+![img_1.png](images/create_git_project/img_git_modified.png)
 ```commandline
 git add Readme.md # add to stage
 git status
