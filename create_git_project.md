@@ -119,6 +119,11 @@ You can change them at any time...
 # an empty line
 git status
 ```
+
+```commandline
+git add Readme.md # add to stage
+git status
+```
 ![img.png](images/create_git_project/img_change_commit.png)
 
 **Image Notes:**
