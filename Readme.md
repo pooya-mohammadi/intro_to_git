@@ -6,6 +6,7 @@ I'm releasing a series of YouTube videos based on the content of this repo. You 
 [intro_to_git youtube series](https://youtube.com/playlist?list=PL2g_5adpoaeLfkAnqPH3sYQDYLeFYgr0b)
 
 <div  id="top"></div>
+
 # Table of Contents
 1. [Create a Git project](https://github.com/pooya-mohammadi/intro_to_git/blob/main/create_git_project.md)
 
