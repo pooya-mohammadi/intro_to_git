@@ -121,7 +121,7 @@ git status
 ```
 ![img_1.png](images/create_git_project/img_git_modified.png)
 ```commandline
-git add Readme.md # add to stage
+git add Readme.md # Before commiting a file, you should add it to stating area.
 git status
 ```
 ![img.png](images/create_git_project/img_change_commit.png)
@@ -133,7 +133,6 @@ git status
    1. This command removes the changed file from the staging area. **It does not remove the whole file from git cache or future commits as in the previous command** 
 
 ```commandline
-git add Readme.md # Before commiting a file, you should add it to stating area.
 git commit -m "Add header Readme.md" # try to add an informative commit message(we'll talk about it in the next notes)
 git status # an inseparable part of our commands :)
 ```
