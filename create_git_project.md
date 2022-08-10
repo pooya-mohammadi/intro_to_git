@@ -189,6 +189,13 @@ git checkout main # your branch name(yours might be `master`)
 Everything is back to the way we left. It's amazing!
 
 ## How to add our project to a remote server[GitHub]
+### Why do we need a remote server
+1. To make sure our projects don't get lost due to computer crashes.
+2. We can share it with others 
+3. We can do teamwork
+4. We can get help from others
+5. and so on...
+### How to set one
 First, create an account on GitHub. Then Log in to your page.</br>  
 ![img.png](images/create_git_project/github_new.png)
 Click on the new button to create a new project.</br> 
