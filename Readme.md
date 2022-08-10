@@ -1,5 +1,5 @@
 # Introduction to Git
-![](images/readme/gitgithub.png)
+![](images/readme/gitgithub.png)</br>
 This repo contains a series of notes for using Git and GitHub.</br>
 It's aimed at making it easy to work with Git and GitHub practically and avoiding its nuances.</br> 
 I'm releasing a series of YouTube videos based on the content of this repo. You can find the videos in the following link:</br>
