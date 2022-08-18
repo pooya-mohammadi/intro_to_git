@@ -8,16 +8,22 @@ I'm releasing a series of YouTube videos based on the content of this repo. You 
 <div  id="top"></div>
 
 # Table of Contents
-1. [Create a Git project](https://github.com/pooya-mohammadi/intro_to_git/blob/main/create_git_project.md)
+1. [Creating a Git project](https://github.com/pooya-mohammadi/intro_to_git/blob/main/creating_git_project.md)
+   * What is Git?
+   * What can Git do?
+   * How to create a project and control its versions using git?
+   * How to check a project's git history?
+   * How to move backward and forward between versions?
+   * How to add our project to a remote server[GitHub]?
 
 
 
 ## 🌟 Spread the word!
 
-If you want to say thank you and/or support active development of the repo:
-- Add a GitHub Star to the project!
-- Follow my profile [pooya-mohammadi](https://github.com/pooya-mohammadi) on GitHub
-- Follow my profile [PooyaMohammadiKazaj](https://youtube.com/PooyaMohammadiKazaj) on YouTube
+I would appreciate it if you could support the active development of this repo by:
+- Adding a GitHub Star to the project!
+- Following my profile [https://github.com/pooya-mohammadi](https://github.com/pooya-mohammadi) on GitHub
+- Following my profile [https://youtube.com/PooyaMohammadiKazaj](https://youtube.com/PooyaMohammadiKazaj) on YouTube
 
 Thanks so much for your interest in growing the reach of the repo!
 <p align="right">(<a href="#top">back to top</a>)</p>
