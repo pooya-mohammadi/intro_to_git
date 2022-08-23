@@ -15,7 +15,8 @@ I also released a series of YouTube videos based on the content of this repo. Yo
    * How to check a project's git history?
    * How to move backward and forward between versions?
    * How to add our project to a remote server[GitHub]?
-
+2. [Working with Teammates on a GitHub Repository](https://github.com/pooya-mohammadi/intro_to_git/blob/main/working_with_teammates.md)
+   * How to clone a project
 
 
 ## 🌟 Spread the word!
