@@ -8,8 +8,8 @@ codes and files without enduring severe suffering. In this tutorial we will focu
 In this section, we will answer the following questions:
 ## Table of Content
 1. [how to clone a project?](#how-to-clone-a-project)
-2. [how to pull changes made from other git repositories?](#how-to-pull-changes-made-from-other-git-sources)
-3. how to tackle errors and conflicts that may occur in this way?
+2. [how to pull changes made from other git repositories?](#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)
+3. [how to tackle errors and conflicts that may occur in this way?](#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)
 
 
 ## how to clone a project?
@@ -53,9 +53,7 @@ The output would be like the following:</br>
 
 ![cloning_output.png](images/developing_a_project_from_different_machines/cloning_output.png)
 
-
-
-## how to pull changes made from other git-sources?
+## how to pull changes made from other git repositories?
 In this section, first, we will make a change on our newly cloned repo. Then, we will fetch/get/pull the changes 
 from the [GitHub repository](https://github.com/pooya-mohammadi/git_01/) without making any direct connection to the 
 local repository hosting the changes.
