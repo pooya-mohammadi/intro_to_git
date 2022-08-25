@@ -16,7 +16,9 @@ I also released a series of YouTube videos based on the content of this repo. Yo
    * How to move backward and forward between versions?
    * How to add our project to a remote server[GitHub]?
 2. [Developing a Project From Different Machines](https://github.com/pooya-mohammadi/intro_to_git/blob/main/developing_a_project_from_different_machines.md)
-   * How to clone a project
+   * How to clone a project?
+   * how to pull changes made from other git repositories?
+   * how to tackle errors and conflicts that may occur in this way?
 
 
 ## 🌟 Spread the word!
