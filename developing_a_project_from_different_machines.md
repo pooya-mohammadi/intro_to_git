@@ -309,6 +309,10 @@ Final remarks for rebase:
 2. Most of the time, `rebase` automatically works when the changes are not made on the same file, and you wouldn't need to resolve conflicts manually, but in case if you have to, you know how to resolve it.
 3. In real projects, you may have to resolve more than one file. The process is the same. You have to resolve all the conflicts on all the files.
 
+<p align="left">
+<a href="https://youtu.be/xnw-OATrRVk" target="_blank"><img src="https://img.youtube.com/vi/xnw-OATrRVk/0.jpg" alt="Introduction to Git: Cloning, Pulling, solving merge conflict with rebase" width="480" height="360" border="10" /></a>
+</p>
+
 ## how to tackle errors and conflicts using merge?
 In this section, we shall check the same conflict and solve it using the `merge`, `--no-rebase`, or the default option.
 
