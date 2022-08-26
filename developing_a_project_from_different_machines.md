@@ -10,7 +10,7 @@ In this section, we will answer the following questions:
 1. [how to clone a project?](#how-to-clone-a-project)
 2. [how to pull changes made from other git repositories?](#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)
 3. [how to tackle errors and conflicts that may occur in this way?](#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)
-
+4. [how to tackle errors and conflicts using merge?](#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)]
 
 ## how to clone a project?
 Before beginning this part, consider that you are working on a project and has created a GitHub repository.
@@ -304,7 +304,61 @@ Let's see the output:</br>
 As it's shown in the image the names are pushed to GitHub repo and the latest commit is like the one
 on git-history shown in the previous image.
 
-Final remarks:
+Final remarks for rebase:
 1. This was one of the most common and also the most complex errors you may encounter while working on a project from different machines.
 2. Most of the time, `rebase` automatically works when the changes are not made on the same file, and you wouldn't need to resolve conflicts manually, but in case if you have to, you know how to resolve it.
 3. In real projects, you may have to resolve more than one file. The process is the same. You have to resolve all the conflicts on all the files.
+
+## how to tackle errors and conflicts using merge?
+In this section, we shall check the same conflict and solve it using the `merge`, `--no-rebase`, or the default option.
+
+To save time, I will create two changes on the `names.txt` file like the previous example. Then, I will push the changes from 
+`second_machine/git_01` and will make another change on the same file and on the same line from `git_01` project.
+
+Commit messages:
+1. [second_machine/git_01] Add Nariman Valizadeh # this is pushed to remote server
+2. [git_01] Add Mohammad Rozban # This is not pushed to remote server
+
+From `git_01` will get the following reject message:
+
+![img_2.png](images/developing_a_project_from_different_machines/merge_reject_message.png)
+
+So, we need to get the changes from remote server. In this section, we'll use `merge` option.
+```commandline
+git pull origin main --no-rebase
+```
+
+![img_2.png](images/developing_a_project_from_different_machines/merge_pull.png)
+
+**Image Notes:**
+1. As it's evident, there is a merge conflict
+2. git status says that `names.txt` is modified
+3. no new branches are created like the one with `rebase`
+4. Important: the commits from remote server is not included in the git log/history!
+
+Let's resolve the conflicts. The `names.txt` should be like below:
+
+![img_2.png](images/developing_a_project_from_different_machines/merge_names_conflict.png)
+
+As you can see, the Head is `Mohammad Rozban` because it's the last commit we made in this repo.
+The `Nariman Valizadeh` is from another commit which in this case only the commit-hash is shown not the commit-message.
+
+Let's resolve the conflicts like the following:
+
+![img_2.png](images/developing_a_project_from_different_machines/merge_resolved_conflicts.png)
+
+Now, let's add the resolved files and push them:
+```commandline
+git add names.txt
+git commit -m "[git_01] Resolve merge-conflict | Keep both names"
+git push origin main
+```
+
+![img_2.png](images/developing_a_project_from_different_machines/merge_final_push.png)
+
+**Image Notes & Final remarks for `merge`:**  
+1. It has the features of `rebase`. The commits from remote server are located before our local commits
+2. It's easier to understand and work around
+3. It has one extra commit after resolving the conflicts which some may not like it
+4. The output is the same as `rebase`'s output.
+
