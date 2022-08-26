@@ -19,6 +19,7 @@ I also released a series of YouTube videos based on the content of this repo. Yo
    * How to clone a project?
    * how to pull changes made from other git repositories?
    * how to tackle errors and conflicts that may occur in this way?
+   * how to tackle errors and conflicts using merge?
 
 
 ## 🌟 Spread the word!

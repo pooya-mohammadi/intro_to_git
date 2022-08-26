@@ -10,7 +10,7 @@ In this section, we will answer the following questions:
 1. [how to clone a project?](#how-to-clone-a-project)
 2. [how to pull changes made from other git repositories?](#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)
 3. [how to tackle errors and conflicts that may occur in this way?](#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)
-4. [how to tackle errors and conflicts using merge?](#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)]
+4. [how to tackle errors and conflicts using merge?](#how-to-tackle-errors-and-conflicts-using-merge)]
 
 ## how to clone a project?
 Before beginning this part, consider that you are working on a project and has created a GitHub repository.
