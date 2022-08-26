@@ -10,7 +10,7 @@ In this section, we will answer the following questions:
 1. [how to clone a project?](#how-to-clone-a-project)
 2. [how to pull changes made from other git repositories?](#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)
 3. [how to tackle errors and conflicts that may occur in this way?](#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)
-4. [how to tackle errors and conflicts using merge?](#how-to-tackle-errors-and-conflicts-using-merge)]
+4. [how to tackle errors and conflicts using merge?](#how-to-tackle-errors-and-conflicts-using-merge)
 
 ## how to clone a project?
 Before beginning this part, consider that you are working on a project and has created a GitHub repository.
@@ -366,3 +366,6 @@ git push origin main
 3. It has one extra commit after resolving the conflicts which some may not like it
 4. The output is the same as `rebase`'s output.
 
+<p align="left">
+<a href="https://youtu.be/iUZVQ39KoT4" target="_blank"><img src="https://img.youtube.com/vi/iUZVQ39KoT4/0.jpg" alt="Introduction to Git: Cloning, Pulling, solving merge conflict with rebase" width="480" height="360" border="10" /></a>
+</p>
