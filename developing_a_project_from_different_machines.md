@@ -367,5 +367,5 @@ git push origin main
 4. The output is the same as `rebase`'s output.
 
 <p align="left">
-<a href="https://youtu.be/iUZVQ39KoT4" target="_blank"><img src="https://img.youtube.com/vi/iUZVQ39KoT4/0.jpg" alt="Introduction to Git: Cloning, Pulling, solving merge conflict with rebase" width="480" height="360" border="10" /></a>
+<a href="https://youtu.be/iUZVQ39KoT4" target="_blank"><img src="https://img.youtube.com/vi/iUZVQ39KoT4/0.jpg" alt="Introduction to Git: Solving merge conflicts using merge" width="480" height="360" border="10" /></a>
 </p>
