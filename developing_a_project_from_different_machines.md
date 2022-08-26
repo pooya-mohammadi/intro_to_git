@@ -194,6 +194,13 @@ hint: or --ff-only on the command line to override the configured default per
 hint: invocation.
 fatal: Need to specify how to reconcile divergent branches.
 ```
+**NOTE:** on Windows you might not see the previous message and realize that the default strategy
+which is `merge` or `--no-rebase` is executed. If you want to reverse this behavior you can execute the following command
+and follow the rest of the tutorial:
+```commandline
+git reset --hard HEAD
+```
+
 We have three options:
 
 First:
@@ -269,6 +276,14 @@ git rebase --continue
 ```
 It will ask you to provide a commit message you can accept the same commit message which was given by yourself in the previous section
 or provide another one. In this example, I simply accepted the one we previously provided.
+
+**NOTE:** Based on the default config of git, a `Vim` editor is opened for editing the commit message after executing `git rebase --continue`.
+Following guide would help you while working `Vim`:
+1. To start making a change enter button `i` in your keyboard. It stands for `insert`.
+2. After you made your changes, enter button `Esc` on your keyboard. It exists the previous mode, which in our case is `i` or `insert`
+3. To save and quit insert the following buttons `:wq`. `w` stands for `write` and `q` stands for `quit`.
+
+Let's continue with the rest of the process:
 ```commandline
 gir branch
 git log --oneline
