@@ -42,7 +42,7 @@ git clone <project-git-url>
 In this tutorial, we'll clone the git_01 project with the following git-command:
 ```
 mkdir second_machine # This may not work on Windows. Instead, create a new folder named second_machine
-cd second_machine # change directory to second_git_01
+cd second_machine # change directory to second_machine
 git clone git@github.com:pooya-mohammadi/git_01.git # clone the project
 ```
 **Note-1:** To follow with this tutorial, you have to use one of your own projects because you don't have proper permissions to make changes on [git_01](https://github.com/pooya-mohammadi/git_01/) repo.</br>
