@@ -281,7 +281,7 @@ or provide another one. In this example, I simply accepted the one we previously
 Following guide would help you while working `Vim`:
 1. To start making a change enter button `i` in your keyboard. It stands for `insert`.
 2. After you made your changes, enter button `Esc` on your keyboard. It exists the previous mode, which in our case is `i` or `insert`
-3. To save and quit insert the following buttons `:wq`. `w` stands for `write` and `q` stands for `quit`.
+3. To save and quit, insert the following buttons `:wq`. `w` stands for `write` and `q` stands for `quit`.
 
 Let's continue with the rest of the process:
 ```commandline
