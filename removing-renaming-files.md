@@ -55,3 +55,54 @@ git push origin main
 
 ![img_2.png](images/remove-rename-files/push_rm.png)
 
+## How to rename a file
+
+Renaming a file is a bit trickier than removing it because we still want to have the file but in another name!
+
+So as always, let's create a file with a typo in its name. We'll continue our experiments on [git_01](https://github.com/pooya-mohammadi/git_01/) project.
+
+
+```commandline
+cd git_01
+touch names_datbase.txt #  On Windows, you can create it graphically.
+git add names_datbase.txt
+git commit -m "names_database.txt"
+git push origin main
+```
+![img_2.png](images/remove-rename-files/rename-add-file.png)
+
+Now, let's correct the typo by renaming it!
+
+```commandline
+mv names_datbase.txt names_database.txt # On Windows, you can rename it graphically!
+git status
+```
+
+![img_2.png](images/remove-rename-files/rename_file.png)
+
+**Image Notes:**
+1. As it's evident, renaming a file compasses two steps:
+   1. Removing it
+   2. Creating a new one
+2. Therefore, the previous name must be removed from git and the new one must be added!
+
+Let's take the appropriate actions to completing the renaming process:
+```commandline
+git rm names_datbase.txt # remove the one with typo
+git add names_database.txt # Add the new one
+git status
+```
+
+![img_2.png](images/remove-rename-files/rm-add-file.png)
+
+As depicted in the image above, `git` finds out that a renaming is going on and tags the files as `renamed` 
+
+The changes are applied to `stage` and they are ready to be committed:
+```commandline
+git commit -m "[Fix-Typo] Rename names_datbase.txt to names_database.txt"
+git push origin main # push the changes to remote repository!
+```
+![img_2.png](images/remove-rename-files/commit-rename.png)
+
+**NOTE:** Even in the commit message it mentions the renaming process!
+
