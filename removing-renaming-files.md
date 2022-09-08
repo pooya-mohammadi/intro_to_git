@@ -5,10 +5,10 @@ For instance, you might want to correct a typo or merge two files into one file.
 There are several use cases for these two functionalities, thereby in this section, we'll cover the following items:
 
 ## Table of Contents
-1. [How to remove a file](#how-to-remove-a-file)
-2. [How to remove a file [Git-Style]](#how-to-remove-a-file-git-style)
-3. [How to rename a file](#how-to-rename-a-file)
-4. [How to rename a file [Git-Style]](#how-to-rename-a-file-git-style)
+1. [How to remove a file?](#how-to-remove-a-file)
+2. [How to remove a file? [Git-Style]](#how-to-remove-a-file-git-style)
+3. [How to rename a file?](#how-to-rename-a-file)
+4. [How to rename a file? [Git-Style]](#how-to-rename-a-file-git-style)
 
 
 ## How to remove a file
