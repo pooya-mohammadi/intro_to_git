@@ -6,7 +6,8 @@ There are several use cases for these two functionalities, thereby in this secti
 
 ## Table of Contents
 1. [How to remove a file](#how-to-remove-a-file)
-2. [How to rename a file]
+2. [How to remove a file [Git-Style]](#how-to-remove-a-file-git-style)
+3. [How to rename a file](#how-to-rename-a-file)
 
 
 ## How to remove a file
@@ -54,6 +55,36 @@ git push origin main
 ```
 
 ![img_2.png](images/remove-rename-files/push_rm.png)
+
+## How to remove a file [Git Style]
+Git provides a way to remove files directly that you might find more convenient to use. To explore it, let's create a file like the previous step:
+```commandline
+cd git_01
+touch hello_world.txt # On Windows, you can create it graphically.
+git add hello_world.txt # Add to stage(one step before commiting)
+git commit -m "Add hello_world.txt" # commit the changes on stage
+git push origin main # push the changes to remote repository
+```
+Now, let's remove it using git:
+```commandline
+git rm hello_world.txt
+git status
+```
+
+![img_2.png](images/remove-rename-files/rm-git-style.png)
+
+**Image Note:**
+1. As it's shown in the image above, the file is removed directly. It's not present in the project's directory.
+2. The changes are directly added to the `stage` and ready to be committed!
+
+Let's commit and remove them:
+```commandline
+git commit -m "Remove hello_world.txt"
+git push origin main 
+```
+![img_2.png](images/remove-rename-files/push-rm-git-style.png)
+
+**NOTE:** The commit is tagged as `delete mode`
 
 ## How to rename a file
 
