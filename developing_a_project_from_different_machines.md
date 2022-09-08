@@ -12,6 +12,10 @@ In this section, we will answer the following questions:
 3. [how to tackle errors and conflicts that may occur in this way?](#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)
 4. [how to tackle errors and conflicts using merge?](#how-to-tackle-errors-and-conflicts-using-merge)
 
+<p align="left">
+<a href="https://youtu.be/xnw-OATrRVk" target="_blank"><img src="https://img.youtube.com/vi/xnw-OATrRVk/0.jpg" alt="Introduction to Git: Cloning, Pulling, solving merge conflict with rebase" width="480" height="360" border="10" /></a>
+</p>
+
 ## how to clone a project?
 Before beginning this part, consider that you are working on a project and has created a GitHub repository.
 To make the process easier, we will have two identical versions of our GitHub repository in two different destinations.
@@ -309,11 +313,12 @@ Final remarks for rebase:
 2. Most of the time, `rebase` automatically works when the changes are not made on the same file, and you wouldn't need to resolve conflicts manually, but in case if you have to, you know how to resolve it.
 3. In real projects, you may have to resolve more than one file. The process is the same. You have to resolve all the conflicts on all the files.
 
+## how to tackle errors and conflicts using merge?
+
 <p align="left">
-<a href="https://youtu.be/xnw-OATrRVk" target="_blank"><img src="https://img.youtube.com/vi/xnw-OATrRVk/0.jpg" alt="Introduction to Git: Cloning, Pulling, solving merge conflict with rebase" width="480" height="360" border="10" /></a>
+<a href="https://youtu.be/iUZVQ39KoT4" target="_blank"><img src="https://img.youtube.com/vi/iUZVQ39KoT4/0.jpg" alt="Introduction to Git: Solving merge conflicts using merge" width="480" height="360" border="10" /></a>
 </p>
 
-## how to tackle errors and conflicts using merge?
 In this section, we shall check the same conflict and solve it using the `merge`, `--no-rebase`, or the default option.
 
 To save time, I will create two changes on the `names.txt` file like the previous example. Then, I will push the changes from 
@@ -366,6 +371,3 @@ git push origin main
 3. It has one extra commit after resolving the conflicts which some may not like it
 4. The output is the same as `rebase`'s output.
 
-<p align="left">
-<a href="https://youtu.be/iUZVQ39KoT4" target="_blank"><img src="https://img.youtube.com/vi/iUZVQ39KoT4/0.jpg" alt="Introduction to Git: Solving merge conflicts using merge" width="480" height="360" border="10" /></a>
-</p>
