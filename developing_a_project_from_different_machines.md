@@ -6,7 +6,7 @@ Or a developer might have two operating systems, say Linux and Windows, thereby 
 codes and files without enduring severe suffering. In this tutorial we will focus on this issue. 
  
 In this section, we will answer the following questions:
-## Table of Content
+## Table of Contents
 1. [how to clone a project?](#how-to-clone-a-project)
 2. [how to pull changes made from other git repositories?](#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)
 3. [how to tackle errors and conflicts that may occur in this way?](#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)

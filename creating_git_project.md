@@ -1,6 +1,6 @@
 # Creating a Git Project
 
-Git is a version control system which is mainly used by developers to version codes. In this section we'll cover the 
+Git is a version control system which is mainly used by developers to version codes. In this section, we'll cover the 
 following items:
 
 1. [What is Git?](#what-is-git)
