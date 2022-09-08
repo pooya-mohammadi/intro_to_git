@@ -9,18 +9,17 @@ I also released a series of YouTube videos based on the content of this repo. Yo
 
 # Table of Contents
 1. [Creating a Git project](https://github.com/pooya-mohammadi/intro_to_git/blob/main/creating_git_project.md)
-   * What is Git?
-   * What can Git do?
-   * How to create a project and control its versions using git?
-   * How to check a project's git history?
-   * How to move backward and forward between versions?
-   * How to add our project to a remote server[GitHub]?
+   * [What is Git?](https://github.com/pooya-mohammadi/intro_to_git/blob/main/creating_git_project.md#what-is-git)
+   * [What can Git do?](https://github.com/pooya-mohammadi/intro_to_git/blob/main/creating_git_project.md#what-can-git-do)
+   * [How to create a project and control its versions using git?](https://github.com/pooya-mohammadi/intro_to_git/blob/main/creating_git_project.md#how-to-create-a-project-and-control-its-versions-using-git)
+   * [How to check a project's git history?](https://github.com/pooya-mohammadi/intro_to_git/blob/main/creating_git_project.md#how-to-check-a-projects-git-history)
+   * [How to move backward and forward between versions?](https://github.com/pooya-mohammadi/intro_to_git/blob/main/creating_git_project.md#how-to-move-backward-and-forward-between-versions)
+   * [How to add our project to a remote server[GitHub]?](https://github.com/pooya-mohammadi/intro_to_git/blob/main/creating_git_project.md#how-to-add-our-project-to-a-remote-servergithub)
 2. [Developing a Project From Different Machines](https://github.com/pooya-mohammadi/intro_to_git/blob/main/developing_a_project_from_different_machines.md)
-   * How to clone a project?
-   * how to pull changes made from other git repositories?
-   * how to tackle errors and conflicts that may occur in this way?
-   * how to tackle errors and conflicts using merge?
-
+   * [How to clone a project?](https://github.com/pooya-mohammadi/intro_to_git/blob/main/developing_a_project_from_different_machines.md#how-to-clone-a-project)
+   * [how to pull changes made from other git repositories?](https://github.com/pooya-mohammadi/intro_to_git/blob/main/developing_a_project_from_different_machines.md#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)
+   * [how to tackle errors and conflicts that may occur in this way?](https://github.com/pooya-mohammadi/intro_to_git/blob/main/developing_a_project_from_different_machines.md#how-to-tackle-errors-and-conflicts-that-may-occur-in-this-way)
+   * [how to tackle errors and conflicts using merge?](https://github.com/pooya-mohammadi/intro_to_git/blob/main/developing_a_project_from_different_machines.md#how-to-tackle-errors-and-conflicts-using-merge)
 
 ## 🌟 Spread the word!
 
