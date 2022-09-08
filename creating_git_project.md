@@ -3,13 +3,16 @@
 Git is a version control system which is mainly used by developers to version codes. In this section we'll cover the 
 following items:
 
-1. What is Git?
-2. What can Git do?
-3. How to create a project and control its versions using git?
-4. How to check a project's git history?
-5. How to move backward and forward between versions?
-6. How to add our project to a remote server[GitHub]?
+1. [What is Git?](#what-is-git)
+2. [What can Git do?](#what-can-git-do)
+3. [How to create a project and control its versions using git?](#how-to-create-a-project-and-control-its-versions-using-git)
+4. [How to check a project's git history?](#how-to-check-a-projects-git-history)
+5. [How to move backward and forward between versions?](#how-to-move-backward-and-forward-between-versions)
+6. [How to add our project to a remote server[GitHub]?](#how-to-add-our-project-to-a-remote-servergithub)
 
+<p align="left">
+<a href="https://youtu.be/AWbQyc2BIms" target="_blank"><img src="https://img.youtube.com/vi/AWbQyc2BIms/0.jpg" alt="Introduction to Git: Install Git, Create a git project, Go back and forth between versions" width="480" height="360" border="10" /></a>
+</p>
 
 ## What is Git?
 Git is an open-source version control system initially developed in 2005 by Linus Torvalds. 
@@ -193,6 +196,11 @@ git checkout main # your branch name(yours might be `master`)
 Everything is back to the way we left. It's amazing!
 
 ## How to add our project to a remote server[GitHub]
+
+<p align="left">
+<a href="https://youtu.be/X5EugV4hza0" target="_blank"><img src="https://img.youtube.com/vi/X5EugV4hza0/0.jpg" alt="Introduction to Git: Creating a GitHub account, pushing codes to a remote server" width="480" height="360" border="10" /></a>
+</p>
+
 ### Why do we need a remote server
 1. To make sure our projects don't get lost due to computer crashes.
 2. We can share it with others 
