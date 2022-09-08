@@ -8,7 +8,7 @@ There are several use cases for these two functionalities, thereby in this secti
 1. [How to remove a file](#how-to-remove-a-file)
 2. [How to remove a file [Git-Style]](#how-to-remove-a-file-git-style)
 3. [How to rename a file](#how-to-rename-a-file)
-4. [How to rename a file [Git-Style]]
+4. [How to rename a file [Git-Style]](#how-to-rename-a-file-git-style)
 
 
 ## How to remove a file
@@ -138,7 +138,7 @@ git push origin main # push the changes to remote repository!
 
 **NOTE:** Even in the commit message it mentions the renaming process!
 
-## How to remove a file [Git Style]
+## How to rename a file [Git Style]
 Git also provides a way to rename files directly that you might find more convenient to use. 
 To explore it, let's create a file containing a typo like the previous section:
 ```commandline
