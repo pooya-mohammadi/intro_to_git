@@ -8,6 +8,7 @@ There are several use cases for these two functionalities, thereby in this secti
 1. [How to remove a file](#how-to-remove-a-file)
 2. [How to remove a file [Git-Style]](#how-to-remove-a-file-git-style)
 3. [How to rename a file](#how-to-rename-a-file)
+4. [How to rename a file [Git-Style]]
 
 
 ## How to remove a file
@@ -137,3 +138,36 @@ git push origin main # push the changes to remote repository!
 
 **NOTE:** Even in the commit message it mentions the renaming process!
 
+## How to remove a file [Git Style]
+Git also provides a way to rename files directly that you might find more convenient to use. 
+To explore it, let's create a file containing a typo like the previous section:
+```commandline
+cd git_01
+touch names_datbase.txt #  On Windows, you can create it graphically.
+# There is a typo in the name of the file!
+git add names_datbase.txt
+git commit -m "names_database.txt"
+git push origin main
+```
+
+In order to correct the intentionally introduced typo, we can use `git mv`:
+```commandline
+git mv names_datbase.txt names_database.txt 
+git status
+```
+
+![img_2.png](images/remove-rename-files/mv-git-style.png)
+
+**Image Notes:**
+1. `git mv` is git command can be executed in any operation-systems(os) like Windows and Linux
+2. The renaming process is done automatically
+3. The changes are added to `stage` automatically as well and are ready to be committed!
+
+```commandline
+git commit -m "[Fix-Typo] Rename names_datbase.txt to names_database.txt"
+git push origin main
+```
+
+![img_2.png](images/remove-rename-files/push-mv-git-style.png)
+
+**NOTE:** the commit is tagged as `rename`!
