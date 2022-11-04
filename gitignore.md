@@ -30,7 +30,7 @@ So, first let's create a folder with a text file:</br>
 cd git_01
 mkdir credentials
 cd credentials
-cat >> credentials
+cat >> credentials.txt
 username: pooya-mohammadi
 password: **************
 ```
