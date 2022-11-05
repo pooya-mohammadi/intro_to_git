@@ -51,7 +51,7 @@ are that you may commit `credentials` along the others by mistake.
 
 ### Create a .gitignore file
 ```
-touch .gitignore 
+touch .gitignore # If you are on Windows, create a new and empty text file graphically and rename it to .gitignore
 cat >> .gitignore
 credentials/
 cat >> .gitignore
