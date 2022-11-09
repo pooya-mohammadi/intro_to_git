@@ -25,7 +25,7 @@ Therefore, by committing this file you may overwrite others passwords our reveal
 avoided!
 
 
-So, first let's create a folder with a text file:</br>
+So, first let's create a folder with a text file in linux:</br>
 ```
 cd git_01
 mkdir credentials
@@ -57,6 +57,7 @@ credentials/
 cat >> .gitignore
 git status
 ```
+**Note**: create an empty text file in windows
 
 ![img_2.png](images/gitignore/img_2.png)
 ![img_1.png](images/gitignore/img_1.png)
