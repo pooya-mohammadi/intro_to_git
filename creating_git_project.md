@@ -202,10 +202,10 @@ Everything is back to the way we left. It's amazing!
 </p>
 
 ### Why do we need a remote server
-1. To make sure our projects don't get lost due to computer crashes.
-2. We can share it with others 
-3. We can do teamwork
-4. We can get help from others
+1. To make sure our projects don't get lost due to computer crashes. Maintain our projects.
+2. We can share it with others. Contribute to open-source community. 
+3. We can do teamwork. Collaborate on various projects.
+4. We can get help from others by issues and forks!!
 5. and so on...
 ### How to set one
 First, create an account on GitHub. Then Log in to your page.</br>  
