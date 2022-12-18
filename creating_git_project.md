@@ -208,7 +208,7 @@ Everything is back to the way we left. It's amazing!
 4. We can get help from others by issues and forks!!
 5. and so on...
 ### How to set one
-First, create an account on GitHub. Then Log in to your page.</br>  
+First, create an account on [GitHub.com](https://github.com). Then Log in to your page.</br>  
 ![img.png](images/create_git_project/github_new.png)
 Click on the new button to create a new project.</br> 
 ![img.png](images/create_git_project/img_create_project_github.png)
