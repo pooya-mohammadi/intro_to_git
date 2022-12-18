@@ -213,7 +213,7 @@ First, create an account on [GitHub.com](https://github.com). Then Log in to you
 Click on the new button to create a new project.</br> 
 ![img.png](images/create_git_project/img_create_project_github.png)
 
-**Image Notes: **
+**Image Notes:**
 1. Repository name should be unique comparing to your other projects
 2. You can create a public, which every can see, or a private project, which only you can see it.
 3. You can check Add a README file. I have not checked it because we have already one Readme.md file.
