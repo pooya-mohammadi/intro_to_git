@@ -222,7 +222,7 @@ Click on the new button to create a new project.</br>
 Click on `Create repository` button. Then you'll see the following image:
 ![img.png](images/create_git_project/img_github_repository_info.png)
 
-**Image Notes: **
+**Image Notes:**
 1. or HTTPS/SSH
    1. These two indicate how you establish your connection with the remote server.
    2. By default, it is set to `SSH`
