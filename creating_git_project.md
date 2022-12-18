@@ -197,10 +197,6 @@ Everything is back to the way we left. It's amazing!
 
 ## How to add our project to a remote server[GitHub]
 
-<p align="left">
-<a href="https://youtu.be/X5EugV4hza0" target="_blank"><img src="https://img.youtube.com/vi/X5EugV4hza0/0.jpg" alt="Introduction to Git: Creating a GitHub account, pushing codes to a remote server" width="480" height="360" border="10" /></a>
-</p>
-
 ### Why do we need a remote server
 1. To make sure our projects don't get lost due to computer crashes. Maintain our projects.
 2. We can share it with others. Contribute to open-source community. 
